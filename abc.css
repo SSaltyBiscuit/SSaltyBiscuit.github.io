@@ -1,3 +1,4 @@
+
 html{
     font-size: 20px;
     color: white;
@@ -8,19 +9,45 @@ html{
         1px 1px 0 #000;
     max-width: 960px;
     margin: auto;
+    
 }
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-  }
-  
+}
+#bio{ 
+	width:100%; 
+	height:100vh; 
+} 
+.left{ 
+	float:left; 
+	width: 50%; 
+} 
+.right{ 
+	float:right; 
+	width: 48%;
+} 
+@font-face { font-family: Kinkie; src: url('Fonts/kinkie/KINKIE__.TTF'); } 
+.Kinkie { 
+    font-family: Kinkie; 
+    font-size: 4.2em; 
+    text-align: center;
+    color: rgb(255, 102, 138);
+}
 body {
     background-image: url("Images/tile.png");
     background-repeat: repeat;
 }
+.image-row {
+    display: flex;
+    justify-content: space-between;
+}
 p {
     display:inline;
     
+}
+strong {
+    color: rgb(89, 255, 172)
 }
