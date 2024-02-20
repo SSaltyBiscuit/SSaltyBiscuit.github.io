@@ -65,6 +65,15 @@ p {
 strong {
     color: rgb(89, 255, 172);
 }
+.rotate {
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
 #counter {
     color: rgba(252, 118, 0, 0.971);
     
