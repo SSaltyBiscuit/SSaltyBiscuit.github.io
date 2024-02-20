@@ -28,7 +28,7 @@ div {
     width: 50%;
 }
 button {
-    background-color: #98AFD1;
+    background-color: #202020;
     color: white;
     border-radius: 8px;
     border: 3px solid #000000;
@@ -37,6 +37,13 @@ button {
 }
 button:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.hnrs2020button {
+    background-color: #98AFD1;
+    margin-bottom: 140px;
+}
+.projectsbutton {
+    background-color : #f8743f;
 }
 #bio{ 
 	width:100%; 
@@ -128,7 +135,7 @@ a.artifact {
     width: 400px;
     height: auto;
     left: 0;
-    top: -50px;
+    top: 170px;
     transition: opacity 1s, top 1s;
   }
   
