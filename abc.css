@@ -61,7 +61,7 @@ button:hover {
     height: 150px;
 }
 body {
-    background-image: url("/Images/Tiles/funorangetile.png");
+    background-image: url("Images/Tiles/");
     background-repeat: repeat;
 }
 .koitile{
