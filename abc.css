@@ -50,11 +50,19 @@ div {
     height: 150px;
 }
 body {
-    background-image: url("/Images/tile.png");
+    background-image: url("/Images/Tiles/funorangetile.png");
     background-repeat: repeat;
 }
-.altbody{
-    background-image: url("/Images/koitile.png");
+.koitile{
+    background-image: url("/Images/Tiles/koitile.png");
+    background-repeat: repeat;
+}
+.orangedottile{
+    background-image: url("/Images/Tiles/orangedottile.jpg");
+    background-repeat: repeat;
+}
+.oldwallpaper{
+    background-image: url("/Images/Tiles/oldwallpaper.avif");
     background-repeat: repeat;
 }
 .image-row {
