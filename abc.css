@@ -27,6 +27,24 @@ div {
     margin: auto;
     width: 50%;
 }
+.gold {
+    text-shadow:
+        -1px -1px 0 #00000000,
+        1px -1px 0 #00000000,
+        -1px 1px 0 #00000000,
+        1px 1px 0 #00000000;
+    background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
+    color: goldenrod;
+    color: rgba(255, 255, 255, 0);
+    background-clip: text;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+	text-transform: uppercase;	
+	font-size: 4em;
+	margin-left: 10px;
+    margin-right: auto;
+	font-weight: 400;
+}
 button {
     background-color: #202020;
     color: white;
@@ -109,6 +127,7 @@ h1 {
 }
 a.flstudio {
     position: relative;
+    color: #ff7452;
   }
   
   a.flstudio img {
@@ -117,11 +136,11 @@ a.flstudio {
     width: 100px;
     height: 100px;
     left: 0;
-    top: +20px;
-    transition: opacity .5s, top .5s;
+    top: -50px;
+    transition: opacity .25s, top .25s;
   }
   
-  a.flstudio:hover img {
+  a.flstudio:hovdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddder img {
     opacity: 1;
     top: -100px;
   }
