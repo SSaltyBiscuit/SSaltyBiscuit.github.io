@@ -46,11 +46,15 @@ div {
     font-family: Kinkie; 
     font-size: 4.2em; 
     text-align: center;
-    color: rgb(255, 102, 138);
+    color: #ff668a;
     height: 150px;
 }
 body {
-    background-image: url("Images/tile.png");
+    background-image: url("/Images/tile.png");
+    background-repeat: repeat;
+}
+.altbody{
+    background-image: url("/Images/koitile.png");
     background-repeat: repeat;
 }
 .image-row {
