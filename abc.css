@@ -106,8 +106,26 @@ body {
     background-image: url("/Images/Tiles/orangedottile.jpg");
     background-repeat: repeat;
 }
+.chickentile{
+    background-image: url("/Images/Tiles/chickentile.jpg");
+    background-size: 15vh;
+    background-repeat: repeat;
+}
+.circuittile{
+    background-image: url("/Images/Tiles/circuittile.jpg");
+    background-repeat: repeat;
+}
+.startile{
+    background-image: url("/Images/Tiles/startile.png");
+    background-repeat: repeat;
+}
 .oldwallpaper{
     background-image: url("/Images/Tiles/oldwallpaper.avif");
+    background-repeat: repeat;
+}
+.penguintile{
+    background-image: url("/Images/Tiles/penguintile.jpg");
+    background-size: 15vw;
     background-repeat: repeat;
 }
 .image-row {
