@@ -1,8 +1,8 @@
 
 html{
     font-size: 25px;
-    font-family: 'Roboto Mono', monospace;
-    color: rgb(9, 243, 255);
+    font-family: Proto_Mono;
+    color: rgb(255, 255, 255);
     text-shadow:
         -1px -1px 0 #000,
         1px -1px 0 #000,
@@ -117,7 +117,8 @@ button:hover {
 	float:right; 
 	width: 48%;
 } 
-@font-face { font-family: Kinkie; src: url('Fonts/kinkie/KINKIE__.TTF'); } 
+@font-face { font-family: Kinkie; src: url('Fonts/kinkie/KINKIE__.TTF'); }
+@font-face { font-family: Proto_Mono; src: url('Fonts/ProtoMono/ProtoMono-Regular.ttf') }
 .Kinkie { 
     font-family: Kinkie; 
     font-size: 4.2em; 
@@ -126,7 +127,7 @@ button:hover {
     height: 150px;
 }
 body {
-    background-image: url("/Images/Tiles/funorangetile.png");
+    background-image: url("/Images/Tiles/startile.gif");
     background-repeat: repeat;
 }
 .koitile{
