@@ -1,47 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-    <meta charset="utf-8"/>
-    <title>QuaggaJS</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
-    <style>
-        #camera video{
-            width:100%;
-            max-width: 640px;
-        }
-    </style>
+    <title>Remoro's Website</title>
+    <link rel="icon" type="image/x-icon" href="Images/remoro.png">
+    <link rel="stylesheet" href="/abc.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="Remoro Oubda's Blog">
+    <meta name="keywords" content="Remoro, Oubda, Remoro Oubda, Blog, blog, remoro, oubda">
+    <meta name="author" content="Remoro Oubda">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<div id="camera" style="width:100%"></div>
-<script src="https://cdn.jsdelivr.net/npm/@ericblade/quagga2/dist/quagga.min.js"></script>
-<script>
-    const quaggaConf = {
-        inputStream: {
-            target: document.querySelector("#camera"),
-            type: "LiveStream",
-            constraints: {
-                width: { min: 640 },
-                height: { min: 480 },
-                facingMode: "environment",
-                aspectRatio: { min: 1, max: 2 }
-            }
-        },
-        decoder: {
-            readers: ['code_128_reader']
-        },
-    }
+    
 
-    Quagga.init(quaggaConf, function (err) {
-        if (err) {
-            return console.log(err);
-        }
-        Quagga.start();
-    });
-
-    Quagga.onDetected(function (result) {
-        alert("Detected barcode: " + result.codeResult.code);
-    });
-</script>
+    
+    <hr>
+    <div id="content">
+        <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+            <div style="flex-grow: 1; flex-shrink: 1; flex-basis: 40%; min-width: 685px; min-height: 400px; max-width: 40%;">
+                <iframe width="90%" height="100%" src="https://www.youtube.com/embed/brf2QS6vNsw?si=5EVOT4s64d93Njxb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div style="flex-grow: 2; flex-shrink: 2; flex-basis: 55%;">
+                <p>
+                REPO: <a href="https://github.com/kajm1ller/BG_Hackathon">https://github.com/kajm1ller/BG_Hackathon</a>
+                <br><br>
+                This is the project I made for the <strong><font color="#ff7452">2024 BGSU Hackathon</font></strong> with my friend Kaj Miller that won us first place.
+                <br><br>
+                This project was made using <strong>JavaScript</strong> and <strong>Node.js</strong> to make a game that would allow users to make an account and compete with others to earn points by recycling. This uses a novel combination of a web based scanner and AI analysis
+                to educate users and score them.
+                <br><br>
+                Watch the youtube video to see the project in action.
+        
+            </div>
+        </div>
+    </div>
+    
+    <hr>
+    <a href="/Projects/projects.html" title="Back">
+        <img src="/Images/back.gif" alt="Back" id="fixedbutton">
+    </a>
+    <script src="/oneko.js"></script>
 </body>
 </html>
